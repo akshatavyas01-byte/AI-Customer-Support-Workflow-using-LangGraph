@@ -1,0 +1,14 @@
+Enter your quesiton:Hii I have some questions related to services you provide?
+Hello, we'd be happy to help with your questions. We offer Botox from £200, Fillers from £250, and free Consultations. What would you like to know?
+Enter your quesiton:More about botox and when your available
+We offer Botox from £200. Our clinic is available from Monday to Saturday, 9 am-7 pm. You can book a consultation or treatment during these hours.
+Enter your quesiton:Can i book an in-person consultancy?
+You can book an in-person consultancy via WhatsApp or our website. We offer free consultations, and it's available from Monday to Saturday, 9 am-7 pm.
+What is your skin type?
+Enter your answer:oily
+Have you had any previous skin treatments or surgeries?
+Enter your answer:NO
+Do you have any allergies or medication issues?
+Enter your answer:dust allergies and paracetamol allergy
+THANK YOU FOR REACHING OUT TO BLOOM AESTHETICS CLINIC. We have noted your dust allergies and paracetamol allergy. For your safety, we would like to discuss this further during a consultation. Please book a free consultation with us via WhatsApp or our website at your convenience. We look forward to welcoming you to our clinic. Have a great day!
+COVERSATION Report {'Customer Intent': 'Interested in aesthetic treatment', 'Key_details': 'Has dust allergies and paracetamol allergy', 'SOP_gaps': 'No medical history form completed, no consultation scheduled', 'Next_action': 'Request medical history form completion and schedule a consultation'}

@@ -1,0 +1,8 @@
+Enter your quesiton:Hii, I have some questions related to service you provide
+Hello, we're happy to help with your questions. We offer Botox from £200, Fillers from £250, and free Consultations. What would you like to know?
+Enter your quesiton:More questions regarding botox 
+We offer Botox from £200. What would you like to know about our Botox service?
+Enter your quesiton:Can botox be done during pregnancy?
+We cannot provide information on using Botox during pregnancy. For medical questions or concerns, we recommend consulting a medical professional.
+ESCALATION Report {'Escalation': 'TRUE', 'Confidence': '8', 'Reason': 'Medical Concerns', 'Summary': "The user inquired about the safety of Botox during pregnancy, and our AI response recommended consulting a medical professional, as we cannot provide medical advice on this topic. The user's question indicates a need for expert medical guidance, which we cannot provide."}
+COVERSATION Report {'Customer Intent': 'Inquiring about BOTOX during pregnancy', 'Key Details': 'Pregnancy status, interest in BOTOX treatment', 'SOP Gaps': 'Lack of clear information on BOTOX treatment during pregnancy, no medical consultation provided', 'Next Action': 'Consult with a medical professional, potentially book an appointment for post-pregnancy treatment'}
