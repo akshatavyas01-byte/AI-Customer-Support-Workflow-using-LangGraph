@@ -28,8 +28,9 @@ The system handles FAQ answering, lead qualification, escalation detection, and 
                                         ↓
                                        END
 ```
-
-project/
+## Project Structure
+---
+          project/
                │
                |── main/
                |    |
@@ -48,6 +49,7 @@ project/
                |── LICENSE
                |── Readme.md
                └── requirements.txt
+---
 
 
 ## Tech Stack
@@ -58,48 +60,58 @@ project/
 - Groq API
 - Anthropic API
 - Pydantic
+---
 
 ## Setup Instructions
-1. Clone the Repository
+### 1. Clone the Repository
 git clone https://github.com/akshatavyas01-byte/AI-Customer-Support-Workflow-using-LangGraph.git
 cd Support_workflow
-2. Create Virtual Environment
+### 2. Create Virtual Environment
 python -m venv .venv
 
-Activate environment:
-Windows
+### Activate environment:
+1. Windows
 .venv\Scripts\activate
 
-Mac/Linux
+2. Mac/Linux
 source .venv/bin/activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Create .env File
+### 4. Create .env File
 groq_api=YOUR_GROQ_API_KEY
 anthro=YOUR_ANTHROPIC_API_KEY
 
+---
+
 ### Dependencies
-langgraph
-langchain
-langchain-groq
-langchain-anthropic
-python-dotenv
-pydantic
+
+- langgraph
+- langchain
+- langchain-groq
+- langchain-anthropic
+- python-dotenv
+- pydantic
 
 ## How to Run the Workflow
 
-Run the graph workflow:
+- Run the graph workflow:
+```python
 python graph.py
+```
 The workflow starts from the FAQ node and routes dynamically based on user interaction.
 
 ## Known Limitations / Trade-offs
-Sometimes the LLM can hallucinate and route to wrong nodes.
-JSON parsing may fail occasionally if the model does not return proper JSON format.
-Conversation history is stored only during runtime and not in a database.
-Escalation system is simulated and does not connect to a real human support team.
-The project currently uses Groq models for testing because Anthropic free usage was limited.
-No authentication, user management, or persistent chat storage is implemented yet.
-The workflow currently runs through terminal interaction only and does not have a frontend/UI.
+- Sometimes the LLM can hallucinate and route to wrong nodes.
+- JSON parsing may fail occasionally if the model does not return proper JSON format.
+- Conversation history is stored only during runtime and not in a database.
+- Escalation system is simulated and does not connect to a real human support team.
+- The project currently uses Groq models for testing because Anthropic free usage was limited.
+- No authentication, user management, or persistent chat storage is implemented yet.
+- The workflow currently runs through terminal interaction only and does not have a frontend/UI.
+
+## Author
+**Akshata Vyas**  
+GitHub: [akshatavyas01-byte](https://github.com/akshatavyas01-byte)
 
