@@ -61,8 +61,8 @@ project/
 
 ## Setup Instructions
 1. Clone the Repository
-git clone <repository_url>
-cd <project_folder>
+git clone https://github.com/akshatavyas01-byte/AI-Customer-Support-Workflow-using-LangGraph.git
+cd Support_workflow
 2. Create Virtual Environment
 python -m venv .venv
 
